@@ -1,8 +1,8 @@
-Abfallkalender API für den WZV Kreis Segeberg
+## Abfallkalender API für den WZV Kreis Segeberg
 
 Dieses PHP-Skript ruft die Abfuhrtermine für eine bestimmte Adresse im Kreis Segeberg vom WZV ab und gibt sie als JSON aus. Zudem kann die iCal-Datei heruntergeladen werden. Die API ist zur Einbindung in Loxone gedacht.
 
-Funktionen
+## Funktionen
 
 📅 Abruf der Abfalltermine als JSON
 
@@ -10,13 +10,13 @@ Funktionen
 
 📥 Download der iCal-Datei
 
-Anforderungen
+## Anforderungen
 
 ✅ PHP 7.4 oder höher
 
 🌐 Internetverbindung
 
-Installation
+## Installation
 
 📂 Kopiere die Datei auf deinen Server.
 
@@ -28,7 +28,7 @@ $ort="Musterstadt";
 $strasse="Musterstraße";
 $hausnr="12a";
 
-Verwendung
+## Verwendung
 
 JSON-Abruf aller Abfuhrtermine
 
@@ -42,7 +42,7 @@ iCal-Datei herunterladen
 
 curl -O "https://deinserver.de/abfallkalender.php?download=true"
 
-Anpassung
+## Anpassung
 
 🎨 Die Farben der Mülltypen können in der $colors-Variable geändert werden.
 
@@ -60,7 +60,7 @@ Da die Adresse direkt im Code steht, sollte das Skript nicht öffentlich zugäng
 
 Es wird empfohlen, das Skript nur auf vertrauenswürdigen Servern zu hosten.
 
-📜 Lizenz
+## Lizenz
 
 Dieses Projekt steht unter der MIT-Lizenz.
 
