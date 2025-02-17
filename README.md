@@ -63,3 +63,9 @@ Es wird empfohlen, das Skript nur auf vertrauenswürdigen Servern zu hosten.
 📜 Lizenz
 
 Dieses Projekt steht unter der MIT-Lizenz.
+
+## Donation
+
+If this project helps you, you can give me a cup of coffee
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/bastyjuice)
